@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/naruto-watcher/static/css/main.bee24e70.chunk.css",
+    "main.js": "/naruto-watcher/static/js/main.f131fb6c.chunk.js",
+    "main.js.map": "/naruto-watcher/static/js/main.f131fb6c.chunk.js.map",
+    "runtime-main.js": "/naruto-watcher/static/js/runtime-main.238079ed.js",
+    "runtime-main.js.map": "/naruto-watcher/static/js/runtime-main.238079ed.js.map",
+    "static/js/2.0a6ed0d3.chunk.js": "/naruto-watcher/static/js/2.0a6ed0d3.chunk.js",
+    "static/js/2.0a6ed0d3.chunk.js.map": "/naruto-watcher/static/js/2.0a6ed0d3.chunk.js.map",
+    "index.html": "/naruto-watcher/index.html",
+    "precache-manifest.8b9885378a3506b4b1233a57a6115fe9.js": "/naruto-watcher/precache-manifest.8b9885378a3506b4b1233a57a6115fe9.js",
+    "service-worker.js": "/naruto-watcher/service-worker.js",
+    "static/css/main.bee24e70.chunk.css.map": "/naruto-watcher/static/css/main.bee24e70.chunk.css.map",
+    "static/js/2.0a6ed0d3.chunk.js.LICENSE.txt": "/naruto-watcher/static/js/2.0a6ed0d3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.238079ed.js",
+    "static/js/2.0a6ed0d3.chunk.js",
+    "static/css/main.bee24e70.chunk.css",
+    "static/js/main.f131fb6c.chunk.js"
+  ]
+}
