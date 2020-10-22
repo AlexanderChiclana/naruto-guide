@@ -18,6 +18,11 @@ function App() {
     reactLocalStorage.set('watchLocation', 0)
   }
 
+  const setWatchLocation = (location) => {
+    setWatchLocationState(location)
+    reactLocalStorage.set('watchLocation', location)
+  } 
+
 
   return (
     <div className="App">
@@ -39,7 +44,7 @@ function App() {
           >reset list</div>
         </div>
 
-      {showData.filter(ep => ep.episode >= watchLocationState).map((ep, i) => <Episode watchLocationState={watchLocationState} key={i} episode={ep.episode} url={ep.url} />)}
+      {showData.filter(ep => ep.episode >= watchLocationState).map((ep, i) => <Episode setWatchLocation={setWatchLocation} watchLocationState={watchLocationState} key={i} episode={ep.episode} url={ep.url} />)}
       
     </div>
   );

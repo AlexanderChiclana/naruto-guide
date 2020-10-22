@@ -1,9 +1,8 @@
 import React from 'react'
-import { reactLocalStorage } from 'reactjs-localstorage'
-import showData from './filler.js'
+
 
 const Episode = props => {
-  const { episode, url, watchLocationState } = props
+  const { episode, url, watchLocationState, setWatchLocation } = props
 
   const isWatched = +watchLocationState === episode
 //   const isNext = showData[showData.findIndex((ep) => ep.episode === episode) + 1].episode === episode
@@ -27,7 +26,7 @@ const Episode = props => {
           Naruto Shippuden Episode {episode}
      </div>
       <a
-        onClick={() => reactLocalStorage.set('watchLocation', episode)}
+        onClick={() => setWatchLocation(episode)}
         style={{
           width: '100px',
           backgroundColor: isWatched ? '#B43A12': 'green',
