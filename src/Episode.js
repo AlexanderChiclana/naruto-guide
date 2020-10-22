@@ -1,11 +1,12 @@
 import React from 'react'
 import { reactLocalStorage } from 'reactjs-localstorage'
+import showData from './filler.js'
 
 const Episode = props => {
   const { episode, url, watchLocationState } = props
 
   const isWatched = +watchLocationState === episode
-  
+//   const isNext = showData[showData.findIndex((ep) => ep.episode === episode) + 1].episode === episode
 
   return (
     <div
@@ -22,9 +23,7 @@ const Episode = props => {
       }}
     >
       <div>
-          {
-
-          }
+     
           Naruto Shippuden Episode {episode}
      </div>
       <a
