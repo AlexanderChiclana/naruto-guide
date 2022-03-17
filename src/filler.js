@@ -22,7 +22,7 @@ goodEps
     for (let i = startNum; i <= endNum; i++) {
       cleanList.push({
           episode: i,
-          url: `https://ww6.theanime.place/naruto-shippuden-episode-${i}-english-dubbed/`
+          url: `https://www18.naruspot.tv/watch/naruto-shippuden-episode-${i}-subbed/`
       })
     }
   })

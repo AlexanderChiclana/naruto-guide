@@ -25,8 +25,8 @@ const Episode = props => {
      
           Naruto Shippuden Episode {episode}
      </div>
-      <a
-        onClick={() => setWatchLocation(episode)}
+      <div
+        onClick={() => setWatchLocation(episode, url)}
         style={{
           width: '100px',
           backgroundColor: isWatched ? '#B43A12': 'green',
@@ -35,14 +35,14 @@ const Episode = props => {
           alignItems: 'center',
           color: 'white'
         }}
-        href={url}
+        // href={url}
       >
         <div>
             { 
             isWatched ? 'Watched' : `Watch ep. ${episode}` 
             }
         </div>
-      </a>
+      </div>
     </div>
   )
 }

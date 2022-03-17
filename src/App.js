@@ -18,9 +18,10 @@ function App() {
     reactLocalStorage.set('watchLocation', 0)
   }
 
-  const setWatchLocation = (location) => {
+  const setWatchLocation = (location, url) => {
     setWatchLocationState(location)
     reactLocalStorage.set('watchLocation', location)
+    window.location.assign(url)
   } 
 
 
