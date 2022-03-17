@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "191e878422d1599c8423d7cb631c16d7",
+    "revision": "2f5da278b866d9e744bc1f3341f34b99",
     "url": "/naruto-guide/index.html"
   },
   {
-    "revision": "2e8dddb48a60851976bc",
+    "revision": "fd9f779649aaa320fe71",
     "url": "/naruto-guide/static/css/main.bee24e70.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/naruto-guide/static/js/2.0a6ed0d3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2e8dddb48a60851976bc",
-    "url": "/naruto-guide/static/js/main.419762d9.chunk.js"
+    "revision": "fd9f779649aaa320fe71",
+    "url": "/naruto-guide/static/js/main.939173cd.chunk.js"
   },
   {
     "revision": "7c3fa5ce59b65305f8da",

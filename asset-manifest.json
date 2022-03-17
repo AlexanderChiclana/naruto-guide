@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/naruto-guide/static/css/main.bee24e70.chunk.css",
-    "main.js": "/naruto-guide/static/js/main.419762d9.chunk.js",
-    "main.js.map": "/naruto-guide/static/js/main.419762d9.chunk.js.map",
+    "main.js": "/naruto-guide/static/js/main.939173cd.chunk.js",
+    "main.js.map": "/naruto-guide/static/js/main.939173cd.chunk.js.map",
     "runtime-main.js": "/naruto-guide/static/js/runtime-main.2a80414a.js",
     "runtime-main.js.map": "/naruto-guide/static/js/runtime-main.2a80414a.js.map",
     "static/js/2.0a6ed0d3.chunk.js": "/naruto-guide/static/js/2.0a6ed0d3.chunk.js",
     "static/js/2.0a6ed0d3.chunk.js.map": "/naruto-guide/static/js/2.0a6ed0d3.chunk.js.map",
     "index.html": "/naruto-guide/index.html",
-    "precache-manifest.0b4110cc0e2cc48b75472d96b889d0e3.js": "/naruto-guide/precache-manifest.0b4110cc0e2cc48b75472d96b889d0e3.js",
+    "precache-manifest.cdd03e89b61027de1c7115f25885a175.js": "/naruto-guide/precache-manifest.cdd03e89b61027de1c7115f25885a175.js",
     "service-worker.js": "/naruto-guide/service-worker.js",
     "static/css/main.bee24e70.chunk.css.map": "/naruto-guide/static/css/main.bee24e70.chunk.css.map",
     "static/js/2.0a6ed0d3.chunk.js.LICENSE.txt": "/naruto-guide/static/js/2.0a6ed0d3.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2a80414a.js",
     "static/js/2.0a6ed0d3.chunk.js",
     "static/css/main.bee24e70.chunk.css",
-    "static/js/main.419762d9.chunk.js"
+    "static/js/main.939173cd.chunk.js"
   ]
 }
